@@ -1,12 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main -check the code
- * 
- * Return: Always 0.
+ * _strcat - function that pthat concatenates two strings.
+ * @dest: The string to be printed.
+ * @src: The string to be printed.
+ *
+ * Return: char *
  */
-void reset_to_98(int *n)
+
+char *_strcat(char *dest, char *src)
 {
-	*n = 98;
+
+	int i, j;
+
+	for (i + 0; dest[i] != '\0';)
+		i++;
+
+	for (j = 0; (dest[i + j] = *src++) != '\0';)
+		j++;
+
+	return (dest);
 }
