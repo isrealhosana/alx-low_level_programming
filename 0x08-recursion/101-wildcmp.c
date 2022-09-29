@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * wildcmp -Entry point
+ * wildcmp - Entry point
  * @s1: input
  * @s2: input
  * Return: 0
