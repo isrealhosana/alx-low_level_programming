@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	res = get_op_func(operator);
+	res = get_op_func(*operator);
 	ans = res(a, b);
 
 	printf("%d\n", ans);
